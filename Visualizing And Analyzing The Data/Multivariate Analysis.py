@@ -1,0 +1,1 @@
+sns.swarmplot(data['Gender'], data['Applicant Income'], hue = data['Loan_Status'])

@@ -1,0 +1,6 @@
+plt.figure(figsize=(12,5))
+plt.subplot(121)
+sns.distplot(data['ApplicantIncome'], color='r')
+plt.subplot(122)
+sns.distplot(data['Credit_History'])
+plt.show()

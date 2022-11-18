@@ -1,0 +1,13 @@
+plt.figure(figsize=(18,4))
+plt.subplot(1,4,1)
+sns.countplot(data['Gender'])
+plt.subplot(1,4,2)
+sns.countplot(data['Education'])
+plt.show()
+
+plt.figure(figsize=(20,5)) plt.subplot(131)
+sns.countplot(data['Married'], hue-data['Gender'])
+plt.subplot(132)
+sns.countplot(data['Self Employed'], hue=data['Education'])
+plt.subplot(133)
+sns.countplot(data['Property Area'], hue-data['Loan_Amount_Term'])
