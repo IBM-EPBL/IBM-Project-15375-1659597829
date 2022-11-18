@@ -1,0 +1,11 @@
+data.info()
+data.isnull().sum()
+data['Gender'] = data['Gender'].fillna(data['Gender'].mode()[0])
+data['Married'] = data['Married'].fillna (data['Married'].mode()[0])
+#replacing + with space for filling the nan values
+data['Dependents']=data['Dependents'].str.replace('+','')
+data['Dependents'] = data['Dependents'].fillna(data['Dependents'].mode()[0])
+data['Self_Employed'] = data['Self_Employed'].fillna(data['Self_Employed'].mode()[0])
+data['LoanAmount'] = data['LoanAmount'].fillna(data['LoanAmount'].mode()[0])
+data['Loan_Amount_Term'] = data['Loan_Amount_Term'].fillna(data['Loan_Amount_Term'].mode()[0])
+data['Credit_History'] = data['Credit_History'].fillna (data['Credit_History'].mode()[0])

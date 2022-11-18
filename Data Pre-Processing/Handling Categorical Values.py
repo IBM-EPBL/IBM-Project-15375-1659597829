@@ -1,0 +1,8 @@
+data['Gender']=data['Gender'].astype('int64') 
+data['Married']=data['Married'].astype('int64') 
+data['Dependents']=data['Dependents'].astype('int64*) 
+data['LoanAmount']=data['LoanAmount'].astype('int64')
+data['Self Employed' ]-data['Self Employed'].astype("int64')
+data['Coapplicant Income'] = data['Coapplicant Income'].astype('int64')
+data['Loan_Amount_Term']=data['Loan_Amount_Term'].astype('int64') 
+data['Credit_History']=data['Credit_History'].astype('int64')
